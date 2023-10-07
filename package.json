@@ -1,0 +1,19 @@
+{
+  "name": "products-management",
+  "version": "1.0.0",
+  "description": "a product management app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naman rao",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^3.0.1"
+  }
+}
